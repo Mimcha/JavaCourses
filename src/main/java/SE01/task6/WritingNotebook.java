@@ -1,4 +1,4 @@
-package org.example;
+package SE01.task6;
 
 import java.util.Arrays;
 
