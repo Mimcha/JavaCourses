@@ -1,12 +1,10 @@
-package org.example;
-
-import SE01.task6.WritingNotebook;
+package SE01.task6;
 
 import java.util.Scanner;
+import SE01.task6.WritingNotebook;
 
-    // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-    public class Main {
+
+public class Notebook {
         public static void main(String[] args) {
             String[] firstMas = new String[0];
             Scanner inMetod = new Scanner(System.in);
