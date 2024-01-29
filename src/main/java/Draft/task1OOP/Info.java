@@ -1,4 +1,4 @@
-package OOP2.task0;
+package Draft.task1OOP;
 
 public interface Info {
 

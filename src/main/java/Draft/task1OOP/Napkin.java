@@ -1,7 +1,8 @@
-package OOP2.task0;
+package Draft.task1OOP;
 
-//   1.1) Написать связь класс родитель и класс наследник.
-class Napkin extends Paper {
+/**
+ * heir Class*/
+class Napkin extends Сellulose {
     private int sheets;
 
     protected void setSheets(int sheets) {
@@ -9,13 +10,18 @@ class Napkin extends Paper {
     }
 
     @Override
-    protected int getSheets() {
+    public void whatColor() {
+        System.out.println("Blue");
+    }
+
+    @Override
+    public int getSheets() {
         return sheets;
     }
 
-    //  1.2) Научиться переопределять методы (overloading)
+
     @Override
-    protected int toBurn(int sheets) {
+    public int toBurn(int sheets) {
         System.out.printf("Салфеток было: " + sheets);
         sheets = 0;
         System.out.println();
